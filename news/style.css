@@ -1,0 +1,15 @@
+.page {
+    margin-top: 100px;
+    padding-left: 50px;
+    text-align: center;
+  }
+ p {
+    color: rgb(86, 235, 17);
+    font-weight: bold;
+ }
+  body {
+    background-image: url('../images/wallpaper.png'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
