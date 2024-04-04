@@ -4,13 +4,17 @@
     text-align: center;
   }
  p {
-    color: rgb(86, 235, 17);
+    color: rgb(244, 91, 190);
     font-weight: bold;
  }
   body {
-    background-image: url('../images/wallpaper.png'); 
+    background-image: url('../images/bg.webp'); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+  }
+  .ps {
+    color: gray;
+    font-family: "Microsoft YaHei", sans-serif;
   }

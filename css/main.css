@@ -144,12 +144,17 @@
   }
 
   .color {
+    display: inline-block;
+    vertical-align: middle;
     background-image: linear-gradient(to right, rgb(211, 93, 112), rgb(157, 49, 157)); /* 从粉色到紫色的渐变 */
     -webkit-background-clip: text; /* Webkit browsers */
     background-clip: text;
     color: transparent; /* 隐藏文本实际颜色 */
   }
 /* 彩色字体 */
+  .middle {
+    white-space: nowrap; /* 防止换行 */
+  }
   .grey {
     margin-top: 10px;
     font-size: 20px;
@@ -182,8 +187,6 @@
     position: absolute;
     height: 300px;
     width: 600px;
-    left: 500px;
-    bottom: 290px;
   }
 }
 
@@ -192,4 +195,12 @@
   .des img {
     display: none;
   }
+}
+
+body {
+  background-image: url('../images/bg.webp'); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
