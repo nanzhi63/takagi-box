@@ -195,4 +195,18 @@ body {
         visibility: visible;
         transition: opacity 250ms;
     }
+    /* 视频 */
+    video {
+        width: 300px;
+        height: 150px;
+    }
 } 
+
+/* 看板娘 */
+.kanban {
+    position: fixed;
+    height: 140px;
+    width: 50px;
+    bottom: 60px;
+    right: 20px;
+}
